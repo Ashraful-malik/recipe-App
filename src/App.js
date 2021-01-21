@@ -3,8 +3,8 @@ import { Cards } from "./Cards.jsx";
 import SearchIcon from "@material-ui/icons/Search";
 
 function App() {
-  const APP_ID = "58d9c6ff";
-  const APP_KEY = "40dc49cbca9656b8372f64ee905b3f44";
+  const APP_ID = "[Api Id]";
+  const APP_KEY = "[Api key]";
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState();
   const [query, setQuery] = useState("chicken");
